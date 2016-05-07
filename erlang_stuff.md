@@ -10,6 +10,6 @@
 - lists of addresses
 - email
 - balance in credits
-- total amount of bitcoin ever transformed to credits.
+- total amount of bitcoin ever transformed to credits
 
 * to store a history of past trades.
