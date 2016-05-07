@@ -7,9 +7,9 @@
 * to store open trades.
 
 * to store information for each account
-- lists of addresses
-- email
-- balance in credits
-- total amount of bitcoin ever transformed to credits
+  * lists of addresses
+  * email
+  * balance in credits
+  * total amount of bitcoin ever transformed to credits
 
 * to store a history of past trades.
