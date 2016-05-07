@@ -3,12 +3,12 @@
 
 * A page for making a new account. 
   1. Have them solve a captcha. 
-  2. Have them make a password.
-  3. Have them provide an email, and click to confirm inside their email.
-  4. We give a small amount of credits to each new account for free.
+  2. Have them provide an email, and click to confirm inside their email.
+  3. We give a small amount of credits to each new account for free.
+  4. They type a password which is deterministically used to generate their public key.
 
 * A page for editing your account info, your addresses and email and userid. 
-  1. To edit info, you need your password.
+  1. To edit info, you need your password, it is used to generate your private key and sign.
   2. Has a deposit address for adding credits to your account. 
   3. you can update your password by using one of your private keys to sign a message.
 

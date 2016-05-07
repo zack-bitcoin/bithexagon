@@ -11,5 +11,6 @@
   * email
   * balance in credits
   * total amount of bitcoin ever transformed to credits
+  * history of past trades.
 
-* to store a history of past trades.
+* to store solutions to captchas. Each captcha has an ID. We store the solution by ID.
