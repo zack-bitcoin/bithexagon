@@ -49,3 +49,4 @@
   * amount in fiat
   * details of non-blockchain money transfer.
   * signature
+

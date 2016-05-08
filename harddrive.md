@@ -4,6 +4,8 @@
 
 * to store open trades.
 
+* to store signatures for a part-ways completed trade, and remember what step we are on.
+
 * to store information for each account. If the account runs out of credits, it gets deleted. Every day you lose credits, even if you don't do anything.
   * lists of addresses
   * email

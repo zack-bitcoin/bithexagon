@@ -1,9 +1,12 @@
 Bob wants to sell Bitcoin. Alice wants to buy. Charlie is running the server used to match Bob to Alice.
 
-Bob uses a browser to communicate to Charlie's server.
-Bob pays a fee to get his trade offer listed on the server. Bob gives a list of addresses that he controls, so Charlie can make transactions for Bob to sign. Bob gives a minimum ratio between the amount of coins he is selling, and the safety deposit his partner will have to put up. Bob must have enough coins to cover the sale, and another safety deposit.
+Bob and Alice use a browsers to communicate to Charlie's server.
+Bob registers for the server, which includes paying a fee in bitcoin, and giving a list of addresses that Bob controls. Depending how much a fee he paid, he gets non-refundable credits. You spend credits to do most things on the site. You also give an email address or other type of contact information that will be given to your trading partners.
+Alice registers too.
 
-Alice uses a browser to look at Charlie's server, and see the trade that Bob offers. She makes a small payment to accept the trade. She has to give a list of addresses that she controls, along with an email address, so that Charlie can make transactions for her to sign. She has to have enough coins to cover the safety deposit. Since she made a payment, we can afford to store her lists of addresses.
+Bob pays a fee in credits to get his trade offer listed on the server. Bob decides a minimum ratio between the amount of coins he is selling, and the safety deposit his partner will have to put up, and the safety deposit he puts up. Bob must have enough coins to cover the sale, and his safety deposit.
+
+Alice uses a browser to look at Charlie's server, and see the trade that Bob offers. She makes a small in credits to accept the trade. She has to have enough coins to cover the safety deposit.
 
 Charlie possibly takes the trade offer off the server, if we reached the limit Bob wanted to trade.
 
