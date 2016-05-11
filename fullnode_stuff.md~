@@ -1,0 +1,5 @@
+* given a list of addresses, we need to know their total balance.
+
+* we need to be able to lookup txs by reciever's address. To the multisig.
+
+* we need to be able to lookup txs by sender's address.

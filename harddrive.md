@@ -1,17 +1,24 @@
-* A database for remembering who is adding credits to their account. Once their tx has 2 confirmations, we give them the credits.
+* to store open trades, waiting for a partner.
+  * amount to trade
+  * price
+  * safety deposit size
+  * other safety deposit size
+  * details about non-cryptocurrency payment
+  * email address for first person.
+  * trade id (don't reuse ids in the same 24 hour period.)
 
-* A database for remembering trades that are about to be completed onto the blockchain. Once they are 2 confirmations deep, add them to the user's reputation.
+* to store signatures for a part-ways completed trade, step 1
+  * One signature moving funds into multi-sig.
+  * store second email address.
 
-* to store open trades.
+* to store signatures for a part-ways completed trade, step 2
+  * Publishes tx that loads money into multi-sig.
+  * Gives email addresses to each participant.
 
-* to store signatures for a part-ways completed trade, and remember what step we are on.
+* to store signatures for a part-ways completed trade, step 3
+  * One signature for unlocking funds from multi-sig.
 
-* to store information for each account. If the account runs out of credits, it gets deleted. Every day you lose credits, even if you don't do anything.
-  * lists of addresses
-  * email
-  * balance in credits
-  * total amount of bitcoin ever transformed to credits
-  * history of past trades.
+* to store signatures for a part-ways completed trade, step 4
+  * Has both unlocking signatures. Either records it as a success, or a weird situation.
 
-
-* to store solutions to captchas. Each captcha has an ID. We store the solution by ID. Once the captcha is older than 10 minutes or so, we delete it from the database.
+* to store data that we asked a user to sign to prove control of an address.

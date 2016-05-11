@@ -1,52 +1,35 @@
-* creating account
-  * solution to a captcha.
-  * email address
-  * pubkey
-  * list of bitcoin addresses
-  * signature
-
-* update account info
-  * new email address
-  * new list of bitcoin addresses
-  * signature
-
-* update password
-  * bitcoin address you control 
-  * data the server provides
-  * signature using the private key for the address.
-
-* join an active trade
-  * signature
-
-* cancel unstarted trade
-  * trade id
-  * signature
-
-* start trade 
-  * trade id
-  * signatures for addresses this trader controls.
-  * signature
-
-* cancel started trade (can only be canceled if you both cancel)
-  * trade id
-  * signature for bitcoin address used in multisig.
-
-* finish trade (can only be finished if you both finish)
-  * trade id
-  * signature for bitcoin address used in multisig.
-  * signature
-
-* list open trades 
-
-* list my active trades (this is where you see your partner's email or phone number when it is time)
-
-* user lookup
-
 * propose new trade
   * buy/sell bitcoin
   * amount in bitcoins
   * type of fiat
   * amount in fiat
   * details of non-blockchain money transfer.
-  * signature
+  * bitcoin address
+  * email address
+  * solution to captcha
+  * security deposit for you
+  * security deposit for your partner
+
+* list open trades (these are traders who don't have partners yet. You can accept their offers.)
+
+* accept a trade
+  * signature for the bitcoin address
+  * email address
+  * bitcoin address
+  * trade id
+
+* trade 2
+  * signature from bitcoin address
+  * trade id
+
+* finish trade (this happens twice. Once for each participant. )
+  * trade id
+  * signature from bitcoin address for unlocking funds from multisig.
+
+* cancel trade (can only be canceled if you both cancel)
+  * trade id
+  * signature for bitcoin address used in multisig. over some data provided by server.
+
+* list my trades (this is where you see your partner's email or phone number when it is time). 
+
 
